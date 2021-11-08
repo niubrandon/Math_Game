@@ -53,7 +53,7 @@ class Game
       puts "Good bye!"
       @status = "END"
     elsif @player2.live == 0
-      puts "Player 1 wins with a socre of #{@player1.live}/3"
+      puts "Player 1 wins with a score of #{@player1.live}/3"
       puts "---- GAME OVER ----"
       puts "Good bye!"
       @status = "END"
